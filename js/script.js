@@ -77,3 +77,18 @@ $(document).ready(function () {
     ]
   });
 });
+
+
+let toogleMenu = document.querySelector('.toogle_menu');
+let menu = document.querySelector('.menu');
+let closeMenu = document.querySelector('.menu__close');
+
+toogleMenu.addEventListener('click', function() {
+    menu.classList.add('menu_active');
+    document.body.style.overflow = 'hidden';
+});
+
+closeMenu.addEventListener('click', function() {
+    menu.classList.remove('menu_active');
+    document.body.style.overflow = '';
+});
