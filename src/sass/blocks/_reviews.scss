@@ -1,0 +1,122 @@
+.reviews {
+
+
+    position: relative;
+
+
+    &__container {
+        width: 100%;
+        padding-bottom: 45px;
+
+    }
+
+    &__label {
+        position: absolute;
+        top: 90px;
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 10px 0;
+        background: #fff;
+        color: #000;
+        writing-mode: vertical-lr;
+        transform: translateX(-50%) rotate(-180deg);
+    }
+
+    &__carousel {
+        margin: 0 auto;
+         padding-left: 65px;
+    }
+
+    .slick-dots {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+
+        li {
+
+
+            button {
+
+                border: none;
+                font-size: 0;
+                line-height: 0;
+                letter-spacing: -5px;
+                width: 65px;
+                height: 1px;
+                margin: 0 5px;
+                background: #c4c4c4;
+
+            }
+        }
+
+        .slick-active button {
+            background: #000;
+        }
+
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 30px;
+        padding: 50px 65px 35px;
+
+        &-img {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        &-text {
+            h3 {
+                font-size: 20px;
+                line-height: 23px;
+                text-transform: uppercase;
+            }
+
+            p {
+                font-size: 16px;
+                line-height: 23px;
+
+            }
+        }
+    }
+
+}
+
+@media (max-width: 991px) {
+    .reviews {
+
+        &__content {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 30px;
+            padding:0;
+            text-align: center;
+            margin: 0 auto;
+
+            &-img {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            &-text {
+                p {
+                    text-align: left;
+                    padding: 0;
+                   
+                }
+            }
+        }
+    }
+}
