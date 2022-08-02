@@ -82,6 +82,7 @@ $(document).ready(function () {
 let toogleMenu = document.querySelector('.toogle_menu');
 let menu = document.querySelector('.menu');
 let closeMenu = document.querySelector('.menu__close');
+let overlay = document.querySelector('.overlay');
 
 toogleMenu.addEventListener('click', function() {
     menu.classList.add('menu_active');
@@ -91,4 +92,9 @@ toogleMenu.addEventListener('click', function() {
 closeMenu.addEventListener('click', function() {
     menu.classList.remove('menu_active');
     document.body.style.overflow = '';
+});
+
+overlay.addEventListener('click', function() {
+  menu.classList.remove('menu_active');
+  document.body.style.overflow = '';
 });
