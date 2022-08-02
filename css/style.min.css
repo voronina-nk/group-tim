@@ -7466,6 +7466,7 @@ p {
 }
 .contacts .feed-form {
   width: 100%;
+  position: relative;
 }
 .contacts .feed-form .form-group {
   margin-bottom: 15px;
@@ -7580,6 +7581,9 @@ p {
     align-items: flex-start;
     margin-top: 55px;
     padding-left: 65px;
+  }
+  .contacts__form .feed-form {
+    position: static;
   }
 }
 @media (max-width: 767px) {
