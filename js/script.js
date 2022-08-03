@@ -38,7 +38,7 @@ $(document).ready(function () {
   });
 });
 
-document.querySelector('video').playbackRate = 4.0;
+// document.querySelector('video').playbackRate = 4.0;
 
 
 $('ul.portfolio__tabs').on('click', 'li:not(.portfolio__tab_active)', function () {

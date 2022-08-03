@@ -6924,14 +6924,12 @@ p {
     top: 30px;
     right: 25px;
   }
-}
-@media (max-width: 575px) {
-  .promo__logo {
+  .promo .promo__logo {
     max-width: 260px;
     margin: 0 auto;
     padding: 0 5px;
   }
-  .promo__logo video {
+  .promo .promo__logo img {
     width: 100%;
   }
 }
