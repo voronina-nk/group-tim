@@ -6768,6 +6768,8 @@ p {
 .promo {
   height: 100vh;
   background-color: #000;
+  min-height: 634px;
+  max-height: 800px;
 }
 .promo .container {
   position: relative;
