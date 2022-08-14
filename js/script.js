@@ -98,3 +98,31 @@ overlay.addEventListener('click', function() {
   menu.classList.remove('menu_active');
   document.body.style.overflow = '';
 });
+
+$(document).ready(function () {
+  $('.portfolio__carousel').slick({
+    // infinite: false,
+    speed: 800,
+    arrows: false,
+    autoplay: true,
+    dots: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    appendArrows: $('.portfolio__nav'),
+    responsive: [
+      {
+        breakpoint: 991,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          adaptiveHeight: true
+        }
+      },
+                        
+    ]
+  });
+});
+
+
+
+ 
