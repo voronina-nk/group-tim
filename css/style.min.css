@@ -17349,7 +17349,11 @@ p {
   margin: 60px 0 60px;
 }
 .promo__logo {
+  max-width: 230px;
   margin: 0 auto;
+}
+.promo__logo img {
+  width: 100%;
 }
 
 @media (max-width: 991px) {
@@ -17373,11 +17377,10 @@ p {
     right: 25px;
   }
   .promo .promo__logo {
-    max-width: 260px;
     margin: 0 auto;
     padding: 0 5px;
   }
-  .promo .promo__logo video {
+  .promo .promo__logo img {
     width: 100%;
   }
 }
