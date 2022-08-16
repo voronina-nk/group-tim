@@ -17104,6 +17104,7 @@ textarea.form-control-lg {
   position: relative;
   height: 100%;
   padding: 0 30px;
+  max-width: 1125px;
 }
 .container .body_line {
   width: 1px;
