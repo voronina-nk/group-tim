@@ -17117,6 +17117,31 @@ textarea.form-control-lg {
   background-color: #000;
 }
 
+.breadcrumb {
+  list-style-type: none;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 35px 0 30px;
+  margin: 0;
+}
+.breadcrumb-item a {
+  font-size: 14px;
+  line-height: 16px;
+  color: #7F7F7F;
+  text-decoration: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.breadcrumb-item a:hover {
+  color: #000;
+}
+.breadcrumb-item.active {
+  color: #000;
+}
+
 @media (max-width: 767px) {
   .container {
     padding: 0 25px;
